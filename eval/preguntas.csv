@@ -1,3 +1,11 @@
 id,pregunta,fuente_esperada,palabra_clave,respuesta_esperada
 1,How many attention heads does the base Transformer use?,attention_paper.pdf,8,h = 8 heads con dk = dv = 64
 2,What are the two RAG model variants?,rag_paper.pdf,RAG-Token,RAG-Sequence y RAG-Token
+3,What is the model dimension d_model of the base Transformer?,attention_paper.pdf,512,d_model = 512
+4,Which optimizer is used to train the Transformer?,attention_paper.pdf,Adam,Adam con warmup y decaimiento 1/sqrt(step)
+5,How many encoder and decoder layers does the base Transformer stack?,attention_paper.pdf,6,N = 6 capas en encoder y decoder
+6,What function computes attention in the Transformer?,attention_paper.pdf,Scaled Dot-Product,Scaled Dot-Product Attention
+7,Which retriever does the RAG paper use to find passages?,rag_paper.pdf,DPR,Dense Passage Retriever (DPR)
+8,What library builds the vector index for retrieval in the RAG paper?,rag_paper.pdf,FAISS,FAISS con MIPS para recuperacion
+9,On which corpus does the RAG paper retrieve documents?,rag_paper.pdf,Wikipedia,Dump de Wikipedia dividido en pasajes
+10,What positional information does the Transformer add to embeddings?,attention_paper.pdf,positional encoding,Positional encodings sinusoidales

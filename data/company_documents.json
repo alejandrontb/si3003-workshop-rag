@@ -1,0 +1,83 @@
+[
+  {
+    "id": "membresia_001",
+    "title": "Planes de membresía",
+    "content": "El Club de Montañismo Cumbre Andina ofrece tres planes de membresía. El plan Estudiante cuesta 40.000 pesos al mes e incluye dos salidas guiadas mensuales. El plan Estándar cuesta 70.000 pesos al mes e incluye cuatro salidas y préstamo de equipo básico. El plan Expedición cuesta 120.000 pesos al mes, incluye salidas ilimitadas, préstamo de equipo técnico y un cupo prioritario en las expediciones de alta montaña.",
+    "metadata": {
+      "department": "membresias",
+      "type": "pricing"
+    }
+  },
+  {
+    "id": "seguridad_001",
+    "title": "Protocolo de seguridad en salidas",
+    "content": "Toda salida debe contar con al menos un guía certificado por cada seis participantes. Es obligatorio llevar casco en vías de escalada y en zonas con caída de roca. Antes de cada salida el guía revisa el pronóstico del clima; si se anuncian tormentas eléctricas, la salida se cancela o se reprograma. Cada participante debe registrar su plan de ruta en la bitácora del club antes de partir.",
+    "metadata": {
+      "department": "seguridad",
+      "type": "policy"
+    }
+  },
+  {
+    "id": "equipo_001",
+    "title": "Préstamo y cuidado del equipo",
+    "content": "El club presta arneses, cascos, mosquetones y cuerdas a los miembros de los planes Estándar y Expedición. El equipo se solicita con 48 horas de anticipación y se devuelve limpio dentro de las 24 horas siguientes a la salida. El daño por mal uso se cobra al precio de reposición. Las cuerdas se retiran del servicio tras una caída de factor dos o a los cinco años de uso, lo que ocurra primero.",
+    "metadata": {
+      "department": "logistica",
+      "type": "procedure"
+    }
+  },
+  {
+    "id": "expedicion_001",
+    "title": "Requisitos para expediciones de alta montaña",
+    "content": "Para inscribirse en una expedición por encima de 4.500 metros, el miembro debe haber completado al menos cinco salidas de aclimatación en el último año y aprobar una evaluación médica de aptitud física vigente a seis meses. El plan Expedición es obligatorio para estas salidas. El club exige un seguro de rescate en montaña con cobertura de helicóptero.",
+    "metadata": {
+      "department": "expediciones",
+      "type": "policy"
+    }
+  },
+  {
+    "id": "formacion_001",
+    "title": "Cursos de formación",
+    "content": "El club dicta tres cursos. El curso de Iniciación a la escalada dura dos fines de semana y enseña nudos, aseguramiento y rapel. El curso de Autorrescate en grietas está dirigido a miembros con experiencia en glaciar. El curso de Primeros auxilios en zonas remotas se dicta dos veces al año y otorga un certificado válido por tres años.",
+    "metadata": {
+      "department": "formacion",
+      "type": "catalog"
+    }
+  },
+  {
+    "id": "reembolsos_001",
+    "title": "Cancelaciones y reembolsos",
+    "content": "Si el club cancela una salida por mal clima, el miembro recibe el reembolso completo o un cupo en otra fecha. Si el miembro cancela con más de 72 horas de anticipación se devuelve el 80 por ciento del valor. Con menos de 72 horas no hay reembolso, salvo por motivo médico justificado con certificado.",
+    "metadata": {
+      "department": "membresias",
+      "type": "policy"
+    }
+  },
+  {
+    "id": "ambiental_001",
+    "title": "Política ambiental y de no dejar rastro",
+    "content": "El club sigue los principios de no dejar rastro. Está prohibido dejar basura, hacer fogatas fuera de las zonas autorizadas y salirse de los senderos marcados en áreas protegidas. Los residuos orgánicos y las necesidades fisiológicas se gestionan a más de 60 metros de fuentes de agua. Quien incumpla de forma reiterada puede perder la membresía.",
+    "metadata": {
+      "department": "sostenibilidad",
+      "type": "policy"
+    }
+  },
+  {
+    "id": "voluntariado_001",
+    "title": "Programa de voluntariado y mantenimiento de senderos",
+    "content": "Los miembros pueden sumar horas de voluntariado en jornadas de mantenimiento de senderos y limpieza de zonas de escalada. Cada diez horas de voluntariado acumuladas otorgan un descuento del 10 por ciento en la mensualidad del mes siguiente, hasta un máximo del 30 por ciento. Las jornadas se publican en el calendario del club el primer lunes de cada mes.",
+    "metadata": {
+      "department": "comunidad",
+      "type": "procedure"
+    }
+  },
+  {
+    "id": "contacto_001",
+    "title": "Sede, horarios y contacto",
+    "content": "La sede del club queda en Medellín y atiende de martes a sábado de 9 de la mañana a 7 de la noche. El teléfono de la sede es el 604 555 0100 y el correo de contacto es info@cumbreandina.example. En caso de emergencia durante una salida, el número de la línea de guardia 24 horas es el 300 555 0199.",
+    "metadata": {
+      "department": "administracion",
+      "type": "reference"
+    }
+  }
+]
