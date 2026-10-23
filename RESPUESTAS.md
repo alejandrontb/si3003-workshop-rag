@@ -80,6 +80,8 @@ Store inicial: posiciones 0→A, 1→B, 2→C, 3→D. Alguien hace `self.documen
 
 > Notebook: `notebooks/02b_rag_app_nvidia_nim_colab.ipynb` (mi copia con A2/A3/A4 aplicados). Corpus: `data/company_documents.json` (Club de Montañismo Cumbre Andina, 9 documentos).
 
+> **Troubleshooting — error `[404] Not Found Function '...': Not found for account '...'`.** No es un fallo del código ni del corpus: significa que la API key / organización de NVIDIA **no tiene habilitado** ese modelo en los *Public API Endpoints* (gating de entitlement; el nombre del modelo puede ser válido y aun así dar 404). Solución aplicada en el notebook (celda **2b**): listar los modelos realmente disponibles con `ChatNVIDIA.get_available_models()` / `NVIDIAEmbeddings.get_available_models()` y elegir automáticamente uno válido (cae a `llama-3.1-*instruct` y `nv-embedqa` si el Nemotron no está habilitado). Si la lista sale vacía, hay que habilitar los Public API Endpoints de la org en build.nvidia.com o usar una key con acceso.
+
 ## A1 · Ejecuta la app RAG de punta a punta
 
 **Evidencia:** `evidencias/A1_gradio.png` (captura de Gradio con una respuesta y sus fuentes — generar al correr en Colab).
